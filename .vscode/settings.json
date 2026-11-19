@@ -1,0 +1,20 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "terminal.integrated.env.windows": {
+    "JAVA_HOME": "C:\\Users\\caalb\\.jdks\\jdk-17",
+    "HADOOP_HOME": "C:\\Users\\caalb\\.hadoop",
+    "PATH": "C:\\Users\\caalb\\.jdks\\jdk-17\\bin;C:\\Users\\caalb\\.hadoop\\bin;${env:PATH}",
+    "PYSPARK_PYTHON": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "PYSPARK_DRIVER_PYTHON": "${workspaceFolder}\\.venv\\Scripts\\python.exe"
+  },
+  "java.jdt.ls.java.home": "C:\\Users\\caalb\\.jdks\\jdk-17",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "C:\\Users\\caalb\\.jdks\\jdk-17",
+      "default": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Spark / salidas locales
+.spark/
+spark-warehouse/
+derby.log
+metastore_db/
+logs/
+
+# Datos generados
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+# VSCode (dejamos .vscode/settings.json versionado)
+.vscode/*.log
