@@ -10,7 +10,7 @@ no se modifica, ni se toca `JAVA_HOME` a nivel de usuario/máquina.
 | JDK | Temurin 17.0.21 | `C:\Users\caalb\.jdks\jdk-17` |
 | Hadoop winutils | 3.3.6 | `C:\Users\caalb\.hadoop\bin` |
 | Python venv | 3.14.3 | `.venv\` (en el proyecto) |
-| PySpark | 4.3.0 | dentro del venv |
+| PySpark | 3.5.3 | dentro del venv |
 
 ## Cómo se activa
 
