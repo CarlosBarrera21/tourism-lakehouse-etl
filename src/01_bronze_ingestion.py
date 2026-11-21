@@ -57,7 +57,7 @@ def run_bronze_ingestion():
 
   # Validación
   total_rows = spark.read.format("delta").load(delta_path).count()
-  print(f"[BRONZE] Ingesta exitosa. Total de registros: {total_rows}")
+  print(f"[BRONZE] Total de registros: {total_rows}")
 
   spark.stop()
 
