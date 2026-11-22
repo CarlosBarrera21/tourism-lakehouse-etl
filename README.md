@@ -10,7 +10,7 @@ El flujo procesa el dataset histórico de reservas hoteleras a través de tres c
 
 1.  Capa Bronze (`src/01_bronze_ingestion.py`)
    * Ingesta del archivo CSV crudo hacia formato columnar **Delta Lake** sin alteraciones, garantizando trazabilidad y auditoría histórica.
-2. ** Capa Silver (`src/02_silver_cleaning.py`)**
+2.  Capa Silver (`src/02_silver_cleaning.py`)
    * Eliminación de registros duplicados (~32,000 filas redundantes).
    * Limpieza e imputación de valores nulos y estandarización de fechas (`arrival_date`).
    * Aplicación de reglas de negocio: filtrado de tarifas diarias (`adr`) inválidas/negativas, validación de huéspedes totales (> 0), cálculo de `total_nights` y cálculo de `total_revenue` (asignando `0.0` a reservas canceladas).
